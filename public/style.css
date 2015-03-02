@@ -57,16 +57,58 @@ header a {
 /************************************************************/
 
 section[class=banner] {
-  background: grey;
-  background-image: "./public/body-banner-image.jpg";
+  background: url("http://corebank.com/wp-content/themes/corebank/css/../images/banner-image-11.jpg");
   background-size: cover;
 }
 
-.sooo {
-  text-align: center;
-  font-size: 28px;
-  max-width: 126px;
+.banner{
+  padding-bottom: 1%;
 }
+
+h1 {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: #FFFFFF;
+}
+
+.line1 {
+  display: block;
+  font-weight: 400;
+  font-size: 1.2em;
+  position: relative;
+}
+
+.line2 {
+  text-transform: uppercase;
+  display: block;
+  font-weight: 700;
+  font-size: .8em;
+  letter-spacing: .125em;
+  position: relative;
+}
+
+.line3 {
+  text-transform: uppercase;
+  display: block;
+  font-weight: 400;
+  font-size: .75em;
+  letter-spacing: .125em;
+  position: relative;
+}
+
+.sooo {
+/*  font-size: 28px;*/
+  max-width: 126px;
+  margin: 0 auto;
+}
+
+.home .banner .sooo h1 {
+  max-width: 126px;
+  text-align: center;
+
+}
+
 .sooo img {
   max-width: 100%;
   width: auto;
@@ -79,6 +121,7 @@ section[class=banner] {
 
 section[class=banner] .about_us_button {
   position: relative;
+  margin-top: 0;
 }
 
 a.about_us_button {
@@ -91,6 +134,7 @@ a.about_us_button {
   color: #f2f2f2;
   padding: 1em;
   text-align: center;
+  margin: 2% auto 3%;
 }
 
 /************************************************************/
