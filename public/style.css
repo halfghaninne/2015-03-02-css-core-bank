@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/************************************************************/
+/*******************  TOP NAVIGATION MENU  ******************/
+/************************************************************/
+
+header {
+  background-color: #141414;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 0;
+}
+
+header a {
+  display: inline-block;
+
+  height: auto;
+/*  padding-top: 1.8px;
+  padding-bottom: 1.8px;*/
+/*  padding-left: 5%;
+  padding-right: 5%;*/
+}
+
+.menu-button {
+  display: inline;
+  float: left;
+  width: 15%;
+}
+
+.logo {
+  display: inline;
+  width: 70%;
+}
+
+.profile {
+  display: inline;
+  width: 15%;
+}
+
+/************************************************************/
+
+
+
+
+/************************************************************/
+/****** FIRST BANNER WITH BACKGROUND IMAGE AND BUTTON *******/
+/************************************************************/
+
+section[class=banner] {
+  background: grey;
+  background-image: "./public/body-banner-image.jpg";
+  background-size: cover;
+}
+
+.sooo {
+  text-align: center;
+  font-size: 28px;
+  max-width: 126px;
+}
+.sooo img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.banner a {
+  text-decoration: none;
+}
+
+section[class=banner] .about_us_button {
+  position: relative;
+}
+
+a.about_us_button {
+  display: block;
+  max-width: 284px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #101010;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  padding: 1em;
+  text-align: center;
+}
+
+/************************************************************/
+/********* SMALLER IMAGES EACH WITH THEIR OWN LINK **********/
+/************************************************************/
+
+
+.body {
+  padding-top: 2em;
+  text-align: center;
+  background-color: #1A1A1A;
+}
+
+.body img {
+  border-radius: 5px;
+  margin-bottom: 2em;
+}
+
+/************************************************************/
