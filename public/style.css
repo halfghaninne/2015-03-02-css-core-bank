@@ -5,8 +5,13 @@
 body {
   margin: 0;
   padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
+.clear {
+  clear: both;
+}
 /************************************************************/
 /*******************  TOP NAVIGATION MENU  ******************/
 /************************************************************/
@@ -14,43 +19,64 @@ body {
 header {
   background-color: #141414;
   margin: 0;
-  padding-top: 5px;
+/*  padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
-  padding-right: 5px;
+  padding-right: 5px;*/
   border: 0;
+  height: 60px;
+  display: block;
+}
+/*
+.nav_bar:before, .nav_bar:after {
+  content: "";
   display: table;
 }
 
-header a {
-  display: inline-block;
+.nav_bar:after {
+  clear: both;
+}*/
 
-  height: auto;
-/*  padding-top: 1.8px;
-  padding-bottom: 1.8px;*/
-/*  padding-left: 5%;
-  padding-right: 5%;*/
+header a {
+  float: left;
+  display: inline;
 }
 
-a.menu-button {
+header img {
+  vertical-align: middle;
+}
+
+a.menu_button {
   display: inline;
   float: left;
   width: 15%;
-}
-
-h1.logo {
-  width: 70%;
+  height: 100%;
 }
 
 a.logo {
+  text-align: center;
+}
+
+img.logo {
+  height: auto;
+  width: 80%;
+}
+
+.logo {
+  box-sizing: border-box;
+  height:  100%;
   display: inline;
+  float: left;
   width: 70%;
 }
 
 a.profile {
   display: inline;
+  float: left;
   width: 15%;
+  height: 100%;
 }
+
 
 /************************************************************/
 
